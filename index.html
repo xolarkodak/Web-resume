@@ -1,106 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моє резюме</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Резюме</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="about">
+          <h2 class="about-position">Сайт-візитка</h2>
+          <h1 class="about-name">Куделя Олександр</h1>
+          <p class="about-description">
+            Я студент 3го курсу Київського політехнічного інституту, навчаюся 
+            на 123 спеціальності. Дуже люблю навчатись новому та не боюся
+            покорювати нові вершини
+          </p>
+        </div>
 
-    <title>Моє резюме</title>
-</head>
+        <div class="projects">
+          <h3 class="title">Посилання для додаткового зв’язку</h3>
+          <ol class="projects-list">
+            <li class="project-item">
+              <span class="project"
+                ><a href="#" class="project-link">https://www.google.com/</a>
+                ..........
+                <span class="project-bracket">[</span> google
+                <span class="project-bracket">]</span></span
+              >
+            </li>
+            <li class="project-item">
+              <span class="project"
+                ><a href="#" class="project-link">https://www.google.com/</a>
+                ............
+                <span class="project-bracket">[</span> telegram
+                <span class="project-bracket">]</span></span
+              >
+            </li>
+          </ol>
+        </div>
 
-<body>
-    <div>
-        <section>  
-            <div>
-                <h2>Фронтенд бекенд розробник</h2>
-                <h1>ІО-11 Куделя Олександр</h1>  
-                <p>Студент 3 курсу. Навчаюся з 2021 року в КПІ імені Сікорського. Бажаю розвиватись в напрямку Web </p>
-            </div> 
+        <div class="education">
+          <h3 class="title-education">Освіта</h3>
+          <h4 class="university">
+            Національний технічний університет України "Київський політехнічний інститут імені Ігоря Сікорського"
+          </h4>
+          <h4 class="specialty">Комп'ютерна інженерія</h4>
+          <p class="period">Вересень 2021 - Червень 2025 <span class="line">|</span> Україна</p>
+        </div>
+      
 
-            <div>
-                <h3>Проекти</h3> 
-                
-                <ol>
-                    <li>
-                        <a href=" https://www.google.com/">https://www.google.com/</a>
-                        ........................ [ HTML5, CSS3 ]
-                    </li>
-                     <li>                 
-                        <a href="https://www.google.com/">https://www.google.com/</a>
-                        .................[ JavaScript ]
-                    </li>
-                    <li>
-                        <a href="https://www.google.com/">https://www.google.com//</a>
-                        .................... [ React.js, Node.js ]
-                    </li>
-                </ol>
-            </div>  
-            <div>
-                <h3>Досвід роботи</h3>
-                <div>
-                    <h4>Front-End Розробник фріланс </h4>
+        <div class="work">
+          <h3 class="title">Досвід роботи</h3>
 
-                    <p>Вересень 2019 - сьогодні</p>
+          <div>
+            <h4 class="work-position">Back-end Developer Freelance</h4>
+            <p class="period">Лютий 2020 - до цього часу <span class="line">|</span> Україна</p>
+            <ul class="work-list">
+              <li class="work-list-item">Створення сайтів по замовленню.</li>
+              <li class="work-list-item">Розроблення макетів.</li>
+              <li class="work-list-item">Робота з базами данними.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-                    <ul>
-                        <li> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Risus commodo viverra maecenas. </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
-                    </ul>
-                </div>
+      <aside class="sidebar">
+        <img src="./img/User.png" alt="user photo" class="photo" />
 
-                
-            </div>
-            <div>
-                <h3>Освіта</h3>
+        <div class="contacts">
+          <h3 class="sidebar-title">Контакти</h3>
+          <div>
+            <p>
+              <span class="contact-type">C:</span>
+              <a href="tel:+380971751353" class="contact-link">+38 093 3629 522 </a>
+            </p>
+            <p>
+              <span class="contact-type">E:</span>
+              <a href="kudelia.sasha@lll.kpi.ua" class="contact-link"
+                >kudelia.sasha@lll.kpi.ua</a
+              >
+            </p>
+          </div>
+        </div>
 
-                <h4>Київський політехнічний інститут імені Ігоря Сікорського</h4>
-                <p>Комп'ютерна інженерія Вересень 2021 - Червень 2025</p>
+        <div class="tech-skills">
+          <h3 class="sidebar-title">Програмні навички</h3>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item"><span class="tech-skills-text">Exel</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text">Figma</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text">Python</span></li>
+          </ul>
+        </div>
 
-            </div>
-        </section>
-
-        <aside>
-            <img src="./img/foto.png" alt="Моє фото" width="300px">
-            <div>
-                <h3>Контакти</h3>
-                <p> Телефон: <a href="Телефон:+380933629522">+380933629522 </a></p>
-                <p> Email: <a href="Email:kudelia.sasha@lll.kpi.ua"> kudelia.sasha@lll.kpi.ua </a> </p>
-            </div>
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>GIT</li>
-                    <li>WebPack</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Scrum</li>
-                    <li>Agile</li>
-                    <li>GTD</li>
-                    <li>Робота в команді</li>
-                </ul>
-            </div>
-        </aside>
-</div>
-</body>
+        <div class="soft-skills">
+          <h3 class="sidebar-title">Навички</h3>
+          <ul class="soft-skills-list">
+            <li class="soft-skills-item"><span class="soft-skills-text">Комунікабельність</span></li>
+            <li class="soft-skills-item"><span class="soft-skills-text">Творчісь</span></li>
+            <li class="soft-skills-item"><span class="soft-skills-text">Працелюбство</span></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
 </html>
-</body>
-</html> 
